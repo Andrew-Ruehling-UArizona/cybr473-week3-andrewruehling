@@ -8,7 +8,7 @@ import os
 import time
 from prettytable import PrettyTable
 
-# Your File Processor Class Goes Here
+# Set up empty placeholders for every attribute the object will hold
 
 class FileProcessor:
     def __init__(self):
@@ -22,7 +22,7 @@ class FileProcessor:
         self.HEADER_SIZE = 20
         self.last_err = ''
 
-#Getting the necessary data from files for assignment
+# Validate the file path and populate the file's metadata attributes
 
     def set_file_path(self, file_path):
         ''' Set the file path if valid
@@ -50,4 +50,18 @@ class FileProcessor:
         else:
             self.file_path = ''
             self.last_err = 'File Does Not Exist'
+            return False
+
+# Read the file's first HEADER_SIZE bytes and store them as the header
+
+    def get_file_header(self):
+        ''' Read the first HEADER_SIZE bytes of the file and store them '''
+        try:
+            with open(self.file_path, 'rb') as file_to_read:
+                self.header = file_to_read.read(self.HEADER_SIZE)
+                self.last_err = ''
+                return True
+        except Exception as err:
+            self.header = ''
+            self.last_err = str(err)
             return False
