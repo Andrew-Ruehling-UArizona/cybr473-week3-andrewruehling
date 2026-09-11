@@ -1,4 +1,3 @@
-import os
 '''
 File Processor Class and usage example
 '''
@@ -65,3 +64,27 @@ class FileProcessor:
             self.header = ''
             self.last_err = str(err)
             return False
+
+            #Build and print a PrettyTable of the metadata and the header in hex
+
+    def print_file_details(self):
+        ''' Print the metadata and the header, in hex, as a PrettyTable '''
+        tbl = PrettyTable(['Attribute', 'Value'])
+
+        tbl.add_row(['File Path', self.file_path])
+        tbl.add_row(['File Size', self.file_size])
+        tbl.add_row(['Created On', self.created_on])
+        tbl.add_row(['Last Accessed', self.last_accessed])
+        tbl.add_row(['Last Modified', self.last_modified])
+        tbl.add_row(['Type', self.file_type])
+        if self.header:
+            header_hex = self.header.hex()
+        else:
+            header_hex = 'N/A'
+        tbl.add_row(['Header (hex)', header_hex])
+
+        tbl.align = "l"
+        result_string = tbl.get_string()
+        print(result_string)
+
+
