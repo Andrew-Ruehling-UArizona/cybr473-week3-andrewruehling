@@ -1,0 +1,157 @@
+C:\Users\melru\PycharmProjects\cybr473-week3-andrewruehling\.venv\Scripts\python.exe C:\Users\melru\PycharmProjects\cybr473-week3-andrewruehling\src\wk3_assignment1.py 
+Enter a directory path to process: examples
++---------------+------------------------------------------+
+| Attribute     | Value                                    |
++---------------+------------------------------------------+
+| File Path     | examples\chirpy_models.py                |
+| File Size     | 4320                                     |
+| Created On    | Thu Sep 10 20:23:24 2026                 |
+| Last Accessed | Fri Sep 11 19:57:45 2026                 |
+| Last Modified | Thu Sep 10 20:23:24 2026                 |
+| Type          | py                                       |
+| Header (hex)  | 2222220d0a436869727079487562204d6f64656c |
++---------------+------------------------------------------+
++---------------+------------------------------------------+
+| Attribute     | Value                                    |
++---------------+------------------------------------------+
+| File Path     | examples\filehasher_class.py             |
+| File Size     | 2856                                     |
+| Created On    | Thu Sep 10 20:23:24 2026                 |
+| Last Accessed | Fri Sep 11 19:57:45 2026                 |
+| Last Modified | Thu Sep 10 20:23:24 2026                 |
+| Type          | py                                       |
+| Header (hex)  | 2727270d0a486173682046696c6520436c617373 |
++---------------+------------------------------------------+
++---------------+------------------------------------------+
+| Attribute     | Value                                    |
++---------------+------------------------------------------+
+| File Path     | examples\hexdigest.py                    |
+| File Size     | 796                                      |
+| Created On    | Thu Sep 10 20:23:24 2026                 |
+| Last Accessed | Fri Sep 11 19:57:45 2026                 |
+| Last Modified | Thu Sep 10 20:23:24 2026                 |
+| Type          | py                                       |
+| Header (hex)  | 2727270d0a486173682046696c652046756e6374 |
++---------------+------------------------------------------+
++---------------+------------------------------------------+
+| Attribute     | Value                                    |
++---------------+------------------------------------------+
+| File Path     | examples\opening_files.py                |
+| File Size     | 3575                                     |
+| Created On    | Thu Sep 10 20:23:24 2026                 |
+| Last Accessed | Fri Sep 11 19:57:45 2026                 |
+| Last Modified | Thu Sep 10 20:23:24 2026                 |
+| Type          | py                                       |
+| Header (hex)  | 23204f70656e696e6720612066696c6520696e20 |
++---------------+------------------------------------------+
++---------------+------------------------------------------+
+| Attribute     | Value                                    |
++---------------+------------------------------------------+
+| File Path     | examples\pretty_table.py                 |
+| File Size     | 545                                      |
+| Created On    | Thu Sep 10 20:23:24 2026                 |
+| Last Accessed | Fri Sep 11 19:57:45 2026                 |
+| Last Modified | Thu Sep 10 20:23:24 2026                 |
+| Type          | py                                       |
+| Header (hex)  | 2727270d0a5072657474795461626c6520557361 |
++---------------+------------------------------------------+
++---------------+------------------------------------------+
+| Attribute     | Value                                    |
++---------------+------------------------------------------+
+| File Path     | examples\simple_class.py                 |
+| File Size     | 1131                                     |
+| Created On    | Thu Sep 10 20:23:24 2026                 |
+| Last Accessed | Fri Sep 11 19:57:45 2026                 |
+| Last Modified | Thu Sep 10 20:23:24 2026                 |
+| Type          | py                                       |
+| Header (hex)  | 2727270d0a53696d706c6520436c617373204578 |
++---------------+------------------------------------------+
++---------------+------------------------------------------+
+| Attribute     | Value                                    |
++---------------+------------------------------------------+
+| File Path     | examples\using_filehasher.py             |
+| File Size     | 922                                      |
+| Created On    | Thu Sep 10 20:23:24 2026                 |
+| Last Accessed | Fri Sep 11 19:57:45 2026                 |
+| Last Modified | Thu Sep 10 20:23:24 2026                 |
+| Type          | py                                       |
+| Header (hex)  | 23205573696e67207468652046696c6520486173 |
++---------------+------------------------------------------+
++---------------+------------------------------------------+
+| Attribute     | Value                                    |
++---------------+------------------------------------------+
+| File Path     | examples\_notes.txt                      |
+| File Size     | 22                                       |
+| Created On    | Thu Sep 10 20:23:24 2026                 |
+| Last Accessed | Fri Sep 11 19:57:45 2026                 |
+| Last Modified | Thu Sep 10 20:23:24 2026                 |
+| Type          | txt                                      |
+| Header (hex)  | 4578616d706c652066696c657320676f20686572 |
++---------------+------------------------------------------+
++---------------+------------------------------------------+
+| Attribute     | Value                                    |
++---------------+------------------------------------------+
+| File Path     | examples\previous\files.py               |
+| File Size     | 3950                                     |
+| Created On    | Thu Sep 10 20:23:24 2026                 |
+| Last Accessed | Fri Sep 11 19:57:45 2026                 |
+| Last Modified | Thu Sep 10 20:23:24 2026                 |
+| Type          | py                                       |
+| Header (hex)  | 2727270d0a436f70797269676874202863292032 |
++---------------+------------------------------------------+
++---------------+------------------------------------------+
+| Attribute     | Value                                    |
++---------------+------------------------------------------+
+| File Path     | examples\previous\hashing.py             |
+| File Size     | 2225                                     |
+| Created On    | Thu Sep 10 20:23:24 2026                 |
+| Last Accessed | Fri Sep 11 19:57:45 2026                 |
+| Last Modified | Thu Sep 10 20:23:24 2026                 |
+| Type          | py                                       |
+| Header (hex)  | 2727270d0a436f70797269676874202863292032 |
++---------------+------------------------------------------+
++---------------+------------------------------------------+
+| Attribute     | Value                                    |
++---------------+------------------------------------------+
+| File Path     | examples\previous\lists.py               |
+| File Size     | 2058                                     |
+| Created On    | Thu Sep 10 20:23:24 2026                 |
+| Last Accessed | Fri Sep 11 19:57:45 2026                 |
+| Last Modified | Thu Sep 10 20:23:24 2026                 |
+| Type          | py                                       |
+| Header (hex)  | 2727270d0a436f70797269676874202863292032 |
++---------------+------------------------------------------+
++---------------+------------------------------------------+
+| Attribute     | Value                                    |
++---------------+------------------------------------------+
+| File Path     | examples\previous\reading_lines.py       |
+| File Size     | 365                                      |
+| Created On    | Thu Sep 10 20:23:24 2026                 |
+| Last Accessed | Fri Sep 11 19:57:45 2026                 |
+| Last Modified | Thu Sep 10 20:23:24 2026                 |
+| Type          | py                                       |
+| Header (hex)  | 2320486f7720746f207265616420612074787420 |
++---------------+------------------------------------------+
++---------------+------------------------------------------+
+| Attribute     | Value                                    |
++---------------+------------------------------------------+
+| File Path     | examples\previous\sets.py                |
+| File Size     | 2622                                     |
+| Created On    | Thu Sep 10 20:23:24 2026                 |
+| Last Accessed | Fri Sep 11 19:57:45 2026                 |
+| Last Modified | Thu Sep 10 20:23:24 2026                 |
+| Type          | py                                       |
+| Header (hex)  | 2727270d0a436f70797269676874202863292032 |
++---------------+------------------------------------------+
++---------------+------------------------------------------+
+| Attribute     | Value                                    |
++---------------+------------------------------------------+
+| File Path     | examples\previous\walking_and_hashing.py |
+| File Size     | 1010                                     |
+| Created On    | Thu Sep 10 20:23:24 2026                 |
+| Last Accessed | Fri Sep 11 19:57:45 2026                 |
+| Last Modified | Thu Sep 10 20:23:24 2026                 |
+| Type          | py                                       |
+| Header (hex)  | 2727270d0a41737369676e6d656e742032204865 |
++---------------+------------------------------------------+
+Enter a directory path to process: 

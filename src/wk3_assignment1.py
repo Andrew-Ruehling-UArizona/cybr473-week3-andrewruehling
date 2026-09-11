@@ -49,6 +49,27 @@ To start, review the examples in the examples folder and expand on them.
 
 from file_processor import FileProcessor
 
+# ask for a folder, walk it, run every file through the class
+
+DIR = input("Enter a directory path to process: ")
+
+if not os.path.isdir(DIR):
+    print("Directory Not Found:", DIR)
+else:
+    for root, dirs, files in os.walk(DIR):
+        for file_name in files:
+            full_path = os.path.join(root, file_name)
+
+            obj = FileProcessor()
+
+            if obj.set_file_path(full_path):
+                if obj.get_file_header():
+                    obj.print_file_details()
+                else:
+                    print("Header Read Failed: ", obj.last_err)
+            else:
+                print("File Name Error: ", obj.last_err)
+
 
 
 

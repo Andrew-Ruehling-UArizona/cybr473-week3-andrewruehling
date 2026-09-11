@@ -1,5 +1,8 @@
 '''
-File Processor Class and usage example
+Scripting Assignment #3 - File Processor
+CYBR 473 - Violent Python
+Andrew Ruehling
+11 Sep 2026
 '''
 from __future__ import print_function
 
@@ -7,11 +10,11 @@ import os
 import time
 from prettytable import PrettyTable
 
-# Set up empty placeholders for every attribute the object will hold
+# empty variables for now, filled in once file is actually processed
 
 class FileProcessor:
     def __init__(self):
-        self.filePath = ''
+        self.file_path = ''
         self.file_size = ''
         self.created_on = ''
         self.last_accessed = ''
@@ -21,7 +24,7 @@ class FileProcessor:
         self.HEADER_SIZE = 20
         self.last_err = ''
 
-# Validate the file path and populate the file's metadata attributes
+# checks the path is real and readable, then grabs the metadata off it
 
     def set_file_path(self, file_path):
         ''' Set the file path if valid
@@ -31,7 +34,7 @@ class FileProcessor:
         if os.path.isfile(file_path):
             if os.access(file_path, os.R_OK):
                 self.file_path = file_path
-                stats = os.stat(self.file_path)  # Check Out https://docs.python.org/3/library/os.html#os.stat
+                stats = os.stat(self.file_path)
                 self.file_size = stats.st_size
                 self.created_on = time.ctime(stats.st_ctime)
                 self.last_accessed = time.ctime(stats.st_atime)
@@ -51,10 +54,10 @@ class FileProcessor:
             self.last_err = 'File Does Not Exist'
             return False
 
-# Read the file's first HEADER_SIZE bytes and store them as the header
+
+# grabs first 20 bytes of the file
 
     def get_file_header(self):
-        ''' Read the first HEADER_SIZE bytes of the file and store them '''
         try:
             with open(self.file_path, 'rb') as file_to_read:
                 self.header = file_to_read.read(self.HEADER_SIZE)
@@ -65,7 +68,7 @@ class FileProcessor:
             self.last_err = str(err)
             return False
 
-            #Build and print a PrettyTable of the metadata and the header in hex
+# dumps everything into a table, header gets converted to hex here
 
     def print_file_details(self):
         ''' Print the metadata and the header, in hex, as a PrettyTable '''
@@ -86,5 +89,3 @@ class FileProcessor:
         tbl.align = "l"
         result_string = tbl.get_string()
         print(result_string)
-
-
