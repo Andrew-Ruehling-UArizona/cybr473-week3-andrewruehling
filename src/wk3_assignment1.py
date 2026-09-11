@@ -1,5 +1,9 @@
 '''
-Scripting Assignment #3 - Creating a File Processing Object
+
+Scripting Assignment #3 - File Processor
+CYBR 473 - Violent Python
+Andrew Ruehling
+11 Sep 2026
 
 ---
 Scenario:
@@ -47,6 +51,7 @@ To start, review the examples in the examples folder and expand on them.
    C) Your Scripts (This File Edited and file_processor.py completed)
 '''
 
+
 from file_processor import FileProcessor
 
 # ask for a folder, walk it, run every file through the class
@@ -69,10 +74,3 @@ else:
                     print("Header Read Failed: ", obj.last_err)
             else:
                 print("File Name Error: ", obj.last_err)
-
-
-
-
-
-        
-        
