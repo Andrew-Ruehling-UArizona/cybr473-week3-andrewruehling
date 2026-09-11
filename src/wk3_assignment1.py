@@ -51,6 +51,7 @@ To start, review the examples in the examples folder and expand on them.
    C) Your Scripts (This File Edited and file_processor.py completed)
 '''
 
+import os
 
 from file_processor import FileProcessor
 
